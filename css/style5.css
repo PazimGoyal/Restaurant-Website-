@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	 background:url(../img/low_contrast_linen.png);
+margin:0px;
+padding:0px;
+color:#fff;
+}
+.icon-bar{
+	background:#952D06;
+	}
+.black{
+	color:#000000;
+	}
+.white{
+	color:#ffffff;
+	}
+
+.navigation{
+	background:none;
+	border-bottom:2px solid #952D06;	}
+
+
+	li a {
+	font-size: x-large;
+color:#B93807;
+	text-decoration: none;
+	text-shadow: -1px 1px 0px rgba(0,0,10,1.00), -2px 2px 0px rgba(0,0,10,0.90), -3px 3px 0px rgba(0,0,10,0.80), -4px 4px 0px rgba(0,0,10,0.70), -5px 5px 0px rgba(0,0,10,0.60);	
+
+}
+li a:hover, li a:focus {
+	font-size: xx-large;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background: none;
+	 color:#952D06;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
+.row{
+	height:auto;
+	min-height:45vh;
+	}
+	
+.g{
+	height:100%;
+	overflow:hidden;
+	}	
+	
+	.b{		height:100%;
+		overflow:hidden;
+		}
+h1{
+    color: aliceblue
+}
+
+.mySlides1,.mySlides2{
+	width:100%;
+	height:100%;
+	}
+	.all{
+		 background:rgba(255,255,255,0.40);
+		}
+@media (max-width:768px){
+	.hide1{
+		display:none;
+		}
+	}

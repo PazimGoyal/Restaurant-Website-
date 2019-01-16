@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moonlight Indian Cuisine - About Us</title>
+
+<!-- Bootstrap -->
+<link rel="icon" type="image/x-icon"
+     href="../img/Capture.png" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href="../css/style5.css" rel="stylesheet" type="text/css">
+</head>
+<body><nav class="navbar navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle navbar-collapse toggle_button" data-toggle="collapse" data-target="#myNavbar">
+      <div class="icon-bar"></div>
+      <div class="icon-bar"></div>
+      <div class="icon-bar"></div>
+      </button>
+      <a class="navbar-brand" href="../"><img src="../img/Capture.png" height="30px"></a> </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar" >
+      <ul class="nav navbar-nav">
+        <li><a href="../">Home</a></li>
+        <li> <a href="menu2.php">Menu</a></li>
+                <li> <a href="specialOffers.php">Special Offers</a></li>
+<li><a href="menulog.html">Order Online</a></li>
+       <li><a href="gallery.html">Gallery</a></li>  
+        <li><a class="active" href="about_us.html">About us</a></li>
+        <li><a href="contact_us.html">Visit us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="all">
+<div class="row ">
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 b"> 
+    <div>
+  <img class="mySlides1" src="../img/R1.jpg" style="width:100%">
+  <img class="mySlides1" src="../img/R2.jpg" style="width:100%">
+  <img class="mySlides1" src="../img/R3.jpg" style="width:100%">
+</div>
+
+</div>
+<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12 g">
+  <center>  <h1>About Us</h1>
+<h1>Welcome to Moonlight Indian Cuisine</h1>
+  <h3>
+Are you craving for some exotic cuisine?
+
+Moonlight Indian Cuisine is a fine dining Resataurant newly opened on Gold coast at Bornberg Plaza Slatyer Avenue. Offering great taste of indian food.
+
+ </h3>
+  </center>
+    </div>
+
+<div class="col-lg-4  col-md-4 col-sm-12 col-xs-12  b hide1">
+    <div>
+  <img class="mySlides2" src="../img/R1.jpg" style="width:100%">
+  <img class="mySlides2" src="../img/R2.jpg" style="width:100%">
+  <img class="mySlides2" src="../img/R3.jpg" style="width:100%">
+
+</div>
+    </div>
+</div>
+
+
+
+<div class="row" style="margin-top:10px;">
+<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12 g" style="padding:35px;">
+     <h3>At Moonlight Indian Cuisine, we serve authentic Indian dishes that are sure to keep your taste buds fire up. To provide you with a 'taste worth travelling for' we source all of our meats, seafood and vegetables from selected regions around Australia and the world.All of our dishes are enhanced with our secret spice recipe. We source ingredients from all over the Indian sub-continent and hand mix the perfect spice combination in our kitchen. We use an Indian charcoal fired tandoor to bake our breads, ensuring our diners receive soft, perfectly baked bread every time. The menu remains true to traditional and authentic Indian recipes, but now also reflects the food trends in today’s modern India. Impeccable management has resulted in placing Moonlight indian cuisine amongst the very best Indian restaurants. Our goal is to provide genuine and authentic Indian cuisine to our customers at reasonable rates. We strive for prompt, efficient and courteous service to leave an impressionable mark on our customers. 
+<br>Please notify the host of any dietary conditions or flavour preferences.     
+     
+</h3>     <h1 class="text-center">Thank You</h1>
+    </div>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script> 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides1");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+    
+    
+</script>
+
+<script>
+var myIndex = 0;
+carousel2();
+
+function carousel2() {
+    var i;
+    var x = document.getElementsByClassName("mySlides2");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel2, 2000); // Change image every 2 seconds
+}
+    
+    
+</script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	 background:url(../img/low_contrast_linen.png);
+	margin: 0px;
+color:#fff;
+}
+
+.icon-bar{
+	background:#952D06;
+	}
+	
+
+.black{
+	color:#000000;
+	}
+.white{
+	color:#ffffff;
+	}
+.navigation{
+	background:none;
+	border-bottom:2px solid #952D06;	}
+
+	li a {
+	font-size: x-large;
+color:#B93807;
+	text-decoration: none;
+	text-shadow: -1px 1px 0px rgba(0,0,10,1.00), -2px 2px 0px rgba(0,0,10,0.90), -3px 3px 0px rgba(0,0,10,0.80), -4px 4px 0px rgba(0,0,10,0.70), -5px 5px 0px rgba(0,0,10,0.60);	
+
+}
+li a:hover, li a:focus {
+	font-size: xx-large;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background: none;
+	 color:#952D06;
+}
+
+
+.navigation2{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	background:#444;
+padding:0px;	}
+#iframe_main{
+	width:100%;
+	height:100%;
+	 border:none; margin:0; padding:0; overflow:hidden;
+	 }
+#frameContainer{
+	position:fixed; top:0px;; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:-999999;
+padding-top:45px;
+	
+	
+	
+	}
+#map{
+	border:solid 2px #952D06;
+align-self:flex-end;	
+	width:100%;
+height:50vh;
+
+}.main-contact{
+ padding: 40px 0;
+}
+/*Contact        */
+#contact{
+margin-top:-50px;
+padding-bottom:25px;
+	}
+.contact p{
+font-size:25px;
+margin:0;
+padding:0 0 0 0;
+}
+.contact span{
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-ms-border-radius: 100%;
+-o-border-radius: 100%;
+border: 4px solid #952D06;
+width: 70px;
+height: 70px;
+text-align: center;
+font-size: 35px;
+line-height: 60px;
+margin-bottom:20px;
+}
+.line-title{
+	align-self:center;
+	height:5px;
+	color:#952D06;
+	width:50px;
+margin-bottom:10px;
+		}
+		.text-center{
+	margin-top:35px;		
+			}
+.contact p a{
+color:#fff;
+text-decoration:underline;
+}
+.contact p a:hover{
+text-decoration:none;
+}
+
+.item{
+	height:85vh;
+	width:100%;
+	overflow:hidden;
+	}
+.li> img{
+	height:200px;
+	}
+.banner{
+width:100%;
+height:100%;	}
+#background{
+	min-height:75vh;
+	}
+/* ========================================== Footer ========= ============================================== */

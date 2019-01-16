@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background-color:transparent;
+	margin: 0px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;}
+	#background {
+/*	background:url(../img/dav3.jpg) fixed center;
+	background-position: center;
+	background-color:#000000;
+	background-size: cover;
+	height: 100vh;
+	min-height:500px;
+*/}
+.maskHeader{
+position:relative;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background: url(../img/pattern.png) ;
+}
+.black{
+	color:#000000;
+	}
+
+.name {
+font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	
+	top:30%;
+width:100%;
+height:100%;
+z-index:10;
+		vertical-align: central;
+	text-align: center;
+
+}
+.navbar {
+	margin: 0px;
+}
+.news {
+margin-left:20px;
+margin-right:20px;}
+
+.news1{
+ background: radial-gradient(ellipse at center,  #63856a 1%,#3c5a40 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63856a', endColorstr='#3c5a40',GradientType=1 );
+	border: ridge 10px #C0C0C0;
+	height:300px;
+	}
+	
+.news2{	background: #ffffff;
+ background: radial-gradient(ellipse at center,  #ffffff 1%,#F5F0F0 100%); /* W3C */
+height:300px;
+border: ridge 10px #C0C0C0	;}
+
+.info {
+	background: #CDCDCD;
+ background: radial-gradient(ellipse at center,  #cdcdcd 100%,#FFFFFF 100%); /* W3C */
+	width: 100%;
+	height: 100%;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.aboutUs {
+	text-shadow: 0px 3px 4px #3E3E3E;
+
+}
+.red {
+	color: #FF0000;
+}
+.white {
+	color: #FFFFFF;
+}
+.que {
+	font-style: italic;
+	font-weight: 500;
+	text-height: max-size;
+	text-align: left;
+	font-size: large;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#moreAboutUs {
+	font-style: italic;
+}
+
+.modal-footer{
+	background:hsla(0,0%,0%,1.00);
+}
+#map{
+	border:solid 2px #4550A4;
+align-self:flex-end;	
+	width:100vw;
+height:33vh;
+
+}.main-contact{
+ padding: 40px 0;
+}
+
+/*Contact        */
+#contact{
+background:url(../img/website-background-rough-surface.jpg);
+background-color:#cdcdcd;
+padding-bottom:25px;
+	}
+.contact p{
+font-size:25px;
+margin:0;
+padding:0 0 0 0;
+}
+.contact span{
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+-ms-border-radius: 100%;
+-o-border-radius: 100%;
+border: 4px solid #000000;
+width: 70px;
+height: 70px;
+text-align: center;
+font-size: 35px;
+line-height: 60px;
+margin-bottom:20px;
+}
+.line-title{
+	align-self:center;
+	height:5px;
+	color:hsla(359,100%,50%,1.00);
+	width:50px;
+margin-bottom:50px;
+		}
+.contact p a{
+color:#000000;
+}
+.contact p a:hover{
+text-decoration:none;
+}
+
+/* ========================================== Footer ========= ============================================== */
+.c2{
+ border-radius: 6px;
+   transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  box-shadow:-5px 5px 10px #000000;	
+  height:100%;
+padding-bottom:100%;
+}
+.c2:hover {
+  transform: rotateY(180deg);
+}
+.c2 .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  overflow: hidden;
+  background:#555555;
+  color: #0087cc;
+  text-align: center;
+  transform: rotateY(180deg);
+  
+  }
+.c1{
+padding:20px;
+padding-right:25px;
+height:100%;
+	}
+.pall{background:url(../img/PicsArt_02-06-01.53.19.jpg) center fixed;
+background-attachment:fixed;
+background-size:cover;
+height:50vh;
+text-align:center;
+font-size:xx-large;
+color:#ffffff;
+line-height:50vh;
+vertical-align:central;
+background-repeat:no-repeat;}
